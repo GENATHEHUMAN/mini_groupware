@@ -15,7 +15,7 @@ Full-Stack 개발자로서의 역량을 종합적으로 증명하기 위해 기�
    *  VO(Value Object) 클래스 작성: DB 테이블의 컬럼과 1:1로 대응되는 Java 클래스를 만든다. 이 클래스는 순수하게 데이터를 담는 역할만 한다.
    *  Mapper(XML/Interface) 작성: 실행할 SQL 쿼리문을 SELECT * FROM ... 처럼 개발자가 직접 작성한다.
    *  Service, Controller 개발: 비즈니스 로직을 처리한다.
-   *  
+
    *  이 방식은 개발자가 SQL을 완벽하게 제어할 수 있다는 큰 장점이 있다.
 
 * **새로운 방식 (JPA 기반, Code-First)**
