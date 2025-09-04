@@ -1,0 +1,134 @@
+/* 업무 관리 보드 페이지 전용 스타일 */
+.board-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.board-header {
+  margin-bottom: 2rem;
+}
+
+.board-header h1 {
+  color: var(--text-primary);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.board-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.kanban-column {
+  flex: 1;
+  min-width: 300px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.column-header {
+  color: var(--text-primary);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.todo-column {
+  background: #fef7ed;
+}
+
+.todo-column .column-header {
+  color: var(--warning-color);
+}
+
+.progress-column {
+  background: #eff6ff;
+}
+
+.progress-column .column-header {
+  color: var(--primary-color);
+}
+
+.done-column {
+  background: #f0fdf4;
+}
+
+.done-column .column-header {
+  color: var(--success-color);
+}
+
+.task-card {
+  background: var(--card-background);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.task-card:last-child {
+  margin-bottom: 0;
+}
+
+.task-title {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.status-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.status-select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.empty-column {
+  text-align: center;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 2rem 1rem;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-secondary);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .kanban-board {
+    flex-direction: column;
+  }
+
+  .kanban-column {
+    min-width: auto;
+  }
+}
