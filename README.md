@@ -8,6 +8,27 @@ Full-Stack 개발자로서의 역량을 종합적으로 증명하기 위해 기�
 
 ---
 
+## 배운 방식 VS 새로운 방식
+
+* **배운 방식 (MyBatis 기반, Database-First)**
+   *  DB 테이블 생성 (in SQL Developer): 데이터 구조를 먼저 정의한다 논리ERD / 물리ERD. 데이터베이스가 중심.
+   *  VO(Value Object) 클래스 작성: DB 테이블의 컬럼과 1:1로 대응되는 Java 클래스를 만든다. 이 클래스는 순수하게 데이터를 담는 역할만 한다.
+   *  Mapper(XML/Interface) 작성: 실행할 SQL 쿼리문을 SELECT * FROM ... 처럼 개발자가 직접 작성한다.
+   *  Service, Controller 개발: 비즈니스 로직을 처리한다.
+
+   *  이 방식은 개발자가 SQL을 완벽하게 제어할 수 있다는 큰 장점이 있다.
+
+* **새로운 방식 (JPA 기반, Code-First)**
+   * Entity 클래스 작성 (in Java): Java 객체 모델을 먼저 설계한다. Java 코드가 중심!
+   * (JPA가 알아서) DB 테이블 생성: @Entity 클래스의 정보를 바탕으로 JPA가 CREATE TABLE 구문을 자동으로 생성하여 실행한다.
+   * Repository(Interface) 작성: 기본적인 CRUD SQL은 JPA가 자동으로 생성해 주기 때문에. 개발자는 메소드 이름만 규칙에 맞게 만들면 됩니다.
+   * Service, Controller 개발: 비즈니스 로직을 처리한다.
+
+결론적으로 MVC 패턴(Controller-Service) 구조와 거의 동일하다.
+단지, 데이터에 접근하고 처리하는 계층(Mapper vs Repository)만 최신 기술 트렌드 중 하나인 JPA로 바꾼 것이다.
+
+---
+
 ## ✨ 주요 기능
 
 * **사용자 인증/인가 (Spring Security)**
