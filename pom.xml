@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gunwoo</groupId>
-	<artifactId>nnsoft_project</artifactId>
+	<artifactId>mini-groupware</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>nnsoft_project</name>
-	<description>Personal project for nnsoft</description>
+	<name>mini-groupware</name>
+	<description>Personal project for practicing making a mini_groupware</description>
 	<url/>
 	<licenses>
 		<license/>
