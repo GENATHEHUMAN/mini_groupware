@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.service;
+package com.gunwoo.minigroupware.service;
 
 import org.springframework.security.access.AccessDeniedException;
 import java.util.List;
@@ -8,12 +8,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.gunwoo.nnsoftgroupware.domain.ApprovalDoc;
-import com.gunwoo.nnsoftgroupware.domain.User;
-import com.gunwoo.nnsoftgroupware.dto.ApprovalDocCreateRequestDto;
-import com.gunwoo.nnsoftgroupware.dto.ApprovalDocResponseDto;
-import com.gunwoo.nnsoftgroupware.repository.ApprovalDocRepository;
-import com.gunwoo.nnsoftgroupware.repository.UserRepository;
+import com.gunwoo.minigroupware.domain.ApprovalDoc;
+import com.gunwoo.minigroupware.domain.User;
+import com.gunwoo.minigroupware.dto.ApprovalDocCreateRequestDto;
+import com.gunwoo.minigroupware.dto.ApprovalDocResponseDto;
+import com.gunwoo.minigroupware.repository.ApprovalDocRepository;
+import com.gunwoo.minigroupware.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.dto;
+package com.gunwoo.minigroupware.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

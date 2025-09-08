@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.controller;
+package com.gunwoo.minigroupware.controller;
 
 import java.util.List;
 
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gunwoo.nnsoftgroupware.domain.User;
-import com.gunwoo.nnsoftgroupware.dto.UserRegisterRequestDto;
-import com.gunwoo.nnsoftgroupware.service.UserService;
+import com.gunwoo.minigroupware.domain.User;
+import com.gunwoo.minigroupware.dto.UserRegisterRequestDto;
+import com.gunwoo.minigroupware.service.UserService;
 
 import lombok.RequiredArgsConstructor;
 

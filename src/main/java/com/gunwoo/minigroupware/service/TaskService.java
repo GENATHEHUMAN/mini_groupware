@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.service;
+package com.gunwoo.minigroupware.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,13 +8,13 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.gunwoo.nnsoftgroupware.domain.Task;
-import com.gunwoo.nnsoftgroupware.domain.User;
-import com.gunwoo.nnsoftgroupware.dto.TaskCreateRequestDto;
-import com.gunwoo.nnsoftgroupware.dto.TaskResponseDto;
-import com.gunwoo.nnsoftgroupware.dto.TaskStatusUpdateRequestDto;
-import com.gunwoo.nnsoftgroupware.repository.TaskRepository;
-import com.gunwoo.nnsoftgroupware.repository.UserRepository;
+import com.gunwoo.minigroupware.domain.Task;
+import com.gunwoo.minigroupware.domain.User;
+import com.gunwoo.minigroupware.dto.TaskCreateRequestDto;
+import com.gunwoo.minigroupware.dto.TaskResponseDto;
+import com.gunwoo.minigroupware.dto.TaskStatusUpdateRequestDto;
+import com.gunwoo.minigroupware.repository.TaskRepository;
+import com.gunwoo.minigroupware.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

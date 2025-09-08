@@ -1,7 +1,7 @@
-package com.gunwoo.nnsoftgroupware.dto;
+package com.gunwoo.minigroupware.dto;
 
-import com.gunwoo.nnsoftgroupware.domain.ApprovalDoc;
-import com.gunwoo.nnsoftgroupware.domain.ApprovalStatus;
+import com.gunwoo.minigroupware.domain.ApprovalDoc;
+import com.gunwoo.minigroupware.domain.ApprovalStatus;
 
 import lombok.Getter;
 

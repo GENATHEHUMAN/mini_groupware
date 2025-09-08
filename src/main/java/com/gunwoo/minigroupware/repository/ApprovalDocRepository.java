@@ -1,11 +1,11 @@
-package com.gunwoo.nnsoftgroupware.repository;
+package com.gunwoo.minigroupware.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.gunwoo.nnsoftgroupware.domain.ApprovalDoc;
-import com.gunwoo.nnsoftgroupware.domain.User;
+import com.gunwoo.minigroupware.domain.ApprovalDoc;
+import com.gunwoo.minigroupware.domain.User;
 
 // ApprovalDoc Entity를 다루고, PK의 타입은 Long 이라고 명시
 public interface ApprovalDocRepository extends JpaRepository<ApprovalDoc, Long>{

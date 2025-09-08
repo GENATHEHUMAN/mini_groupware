@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.domain;
+package com.gunwoo.minigroupware.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

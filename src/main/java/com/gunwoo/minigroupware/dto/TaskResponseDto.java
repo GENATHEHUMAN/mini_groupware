@@ -1,7 +1,7 @@
-package com.gunwoo.nnsoftgroupware.dto;
+package com.gunwoo.minigroupware.dto;
 
-import com.gunwoo.nnsoftgroupware.domain.Task;
-import com.gunwoo.nnsoftgroupware.domain.TaskStatus;
+import com.gunwoo.minigroupware.domain.Task;
+import com.gunwoo.minigroupware.domain.TaskStatus;
 
 import lombok.Getter;
 

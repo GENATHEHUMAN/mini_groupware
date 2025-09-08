@@ -1,13 +1,13 @@
-package com.gunwoo.nnsoftgroupware.service;
+package com.gunwoo.minigroupware.service;
 
 import java.util.List;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.gunwoo.nnsoftgroupware.domain.User;
-import com.gunwoo.nnsoftgroupware.dto.UserRegisterRequestDto;
-import com.gunwoo.nnsoftgroupware.repository.UserRepository;
+import com.gunwoo.minigroupware.domain.User;
+import com.gunwoo.minigroupware.dto.UserRegisterRequestDto;
+import com.gunwoo.minigroupware.repository.UserRepository;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

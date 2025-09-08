@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.controller;
+package com.gunwoo.minigroupware.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gunwoo.nnsoftgroupware.dto.TaskCreateRequestDto;
-import com.gunwoo.nnsoftgroupware.dto.TaskResponseDto;
-import com.gunwoo.nnsoftgroupware.dto.TaskStatusUpdateRequestDto;
-import com.gunwoo.nnsoftgroupware.service.TaskService;
+import com.gunwoo.minigroupware.dto.TaskCreateRequestDto;
+import com.gunwoo.minigroupware.dto.TaskResponseDto;
+import com.gunwoo.minigroupware.dto.TaskStatusUpdateRequestDto;
+import com.gunwoo.minigroupware.service.TaskService;
 
 import lombok.RequiredArgsConstructor;
 

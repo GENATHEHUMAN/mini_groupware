@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.service;
+package com.gunwoo.minigroupware.service;
 
 import java.util.ArrayList;
 
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.gunwoo.nnsoftgroupware.domain.User;
-import com.gunwoo.nnsoftgroupware.repository.UserRepository;
+import com.gunwoo.minigroupware.domain.User;
+import com.gunwoo.minigroupware.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

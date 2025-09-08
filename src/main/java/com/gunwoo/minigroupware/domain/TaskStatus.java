@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.domain;
+package com.gunwoo.minigroupware.domain;
 
 public enum TaskStatus {
 	TODO,           // 할 일

@@ -1,11 +1,11 @@
-package com.gunwoo.nnsoftgroupware.repository;
+package com.gunwoo.minigroupware.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.gunwoo.nnsoftgroupware.domain.Task;
-import com.gunwoo.nnsoftgroupware.domain.User;
+import com.gunwoo.minigroupware.domain.Task;
+import com.gunwoo.minigroupware.domain.User;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
 

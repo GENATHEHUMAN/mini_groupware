@@ -1,4 +1,4 @@
-package com.gunwoo.nnsoftgroupware.controller;
+package com.gunwoo.minigroupware.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gunwoo.nnsoftgroupware.dto.ApprovalDocCreateRequestDto;
-import com.gunwoo.nnsoftgroupware.dto.ApprovalDocResponseDto;
-import com.gunwoo.nnsoftgroupware.service.ApprovalDocService;
+import com.gunwoo.minigroupware.dto.ApprovalDocCreateRequestDto;
+import com.gunwoo.minigroupware.dto.ApprovalDocResponseDto;
+import com.gunwoo.minigroupware.service.ApprovalDocService;
 
 import lombok.RequiredArgsConstructor;
 

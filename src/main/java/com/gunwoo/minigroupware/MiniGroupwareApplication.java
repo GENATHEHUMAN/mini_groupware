@@ -1,13 +1,13 @@
-package com.gunwoo.nnsoftgroupware;
+package com.gunwoo.minigroupware;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NnsoftProjectApplication {
+public class MiniGroupwareApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NnsoftProjectApplication.class, args);
+		SpringApplication.run(MiniGroupwareApplication.class, args);
 	}
 
 }
